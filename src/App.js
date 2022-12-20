@@ -9,12 +9,10 @@ function App() {
 
     <BrowserRouter>
       <Routes>
-        <Route path="/Inventory">
-          <Inventory />  
-        </Route> 
-        <Route path="/Sign_in">
-          <Signin />
-        </Route>
+        <Route path="/Inventory" element={<Inventory /> }/>
+         
+        <Route path="/Sign_in" element={<Signin />}/>
+        
       </Routes>
     </BrowserRouter>
   );
